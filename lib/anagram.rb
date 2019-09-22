@@ -12,7 +12,6 @@ def match (array)
   output = []
   output << array.find { |anagram| anagram.split(//) == var}
     #binding.pry
-  end
   output
 end
 
