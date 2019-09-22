@@ -8,7 +8,7 @@ end
 
 def match (array)
   var = @word.split(//)
-  array.each do |anagram|
+  array.find do |anagram|
     anagram == var
   end
 end
