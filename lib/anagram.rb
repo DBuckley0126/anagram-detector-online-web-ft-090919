@@ -10,7 +10,7 @@ end
 def match (array)
   var = @word.split(//)
   output = []
-  
+
   array.find do |anagram|
     anagram.split(//) == var
     binding.pry
