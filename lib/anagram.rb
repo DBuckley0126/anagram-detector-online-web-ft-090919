@@ -13,7 +13,7 @@ def match (array)
   if array.find { |anagram| anagram.split(//) == var}
     output << array.find { |anagram| anagram.split(//) == var}
   end
-
+  binding.pry
   output
 end
 
