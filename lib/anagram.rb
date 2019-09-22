@@ -14,6 +14,7 @@ def match (array)
     #binding.pry
     if anagram.split(//) == var
       output = anagram
+    end
   end
   output
 end
