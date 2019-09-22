@@ -15,6 +15,7 @@ def match (array)
     if anagram.split(//).sort == var.sort
       output << anagram
     end
+    end
     output
 end
 
