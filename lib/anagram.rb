@@ -15,8 +15,8 @@ def match (array)
     if anagram.split(//) == var
       output = anagram
     end
+    output
   end
-  output
 end
 
 
