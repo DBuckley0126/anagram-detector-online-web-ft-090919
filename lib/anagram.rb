@@ -11,15 +11,12 @@ def match (array)
   var = @word.split(//)
   output = []
 
-  array.find do |anagram|
-    anagram.split(//) == var
-    binding.pry
+  array.each do |anagram|
+    if anagram.split(//).sort == var.sort
+      output << anagram
     end
     output
 end
-
-
-
 
 
 
