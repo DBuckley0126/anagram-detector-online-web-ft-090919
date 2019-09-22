@@ -9,10 +9,13 @@ end
 
 def match (array)
   var = @word.split(//)
-  array.find do |anagram|
+  output = []
+  array.each do |anagram|
     #binding.pry
-    anagram.split(//) == var
+    if anagram.split(//) == var
+      output = anagram
   end
+  output
 end
 
 
